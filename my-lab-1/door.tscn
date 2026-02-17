@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://bn7ges10ocnq1"]
+
+[ext_resource type="Texture2D" uid="uid://cg7k66y3544pv" path="res://Pictures/doorknob-removebg-preview.png" id="1_ba8gm"]
+
+[node name="ColorRect" type="ColorRect" unique_id=1780518711]
+top_level = true
+offset_left = -328.0
+offset_top = -581.0
+offset_right = -159.0
+offset_bottom = -288.00543
+scale = Vector2(4, 4)
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(0.37798625, 0.18000442, 2.4065375e-08, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=2135104406]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 19.0
+offset_right = 74.0
+offset_bottom = 74.0
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect2" unique_id=1388540626]
+layout_mode = 0
+offset_left = 73.25
+offset_top = -0.25
+offset_right = 128.25
+offset_bottom = 54.75
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect2/ColorRect2" unique_id=1711815028]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 66.0
+offset_right = 56.0
+offset_bottom = 121.0
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect2/ColorRect2/ColorRect2" unique_id=635625703]
+layout_mode = 0
+offset_left = -74.0
+offset_right = -19.0
+offset_bottom = 55.0
+
+[node name="DoorknobRemovebgPreview" type="Sprite2D" parent="ColorRect2/ColorRect2/ColorRect2/ColorRect2" unique_id=1182372569]
+position = Vector2(115.99997, 109.000015)
+scale = Vector2(0.24583326, 0.24047147)
+texture = ExtResource("1_ba8gm")
